@@ -1,0 +1,23 @@
+.body_menu {
+  @include flex(center, center);
+  flex-direction: column;
+}
+
+h1 {
+  margin: 4rem 0;
+}
+
+.menu {
+  margin-top: 10rem;
+  background-color: $primary;
+  border-radius: 0.3rem;
+  padding: 1.5rem 2rem;
+  @include flex(center, center);
+  flex-direction: column;
+  gap: 1rem;
+  a {
+    background-color: $secondary;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+  }
+}
